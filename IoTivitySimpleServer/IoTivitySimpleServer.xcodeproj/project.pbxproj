@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF46BF111E3357F5005FC173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF46BF101E3357F5005FC173 /* main.m */; };
+		FF46BF141E3357F5005FC173 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF46BF131E3357F5005FC173 /* AppDelegate.m */; };
+		FF46BF171E3357F5005FC173 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF46BF161E3357F5005FC173 /* ViewController.mm */; };
+		FF46BF1A1E3357F5005FC173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF46BF181E3357F5005FC173 /* Main.storyboard */; };
+		FF46BF1C1E3357F5005FC173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF46BF1B1E3357F5005FC173 /* Assets.xcassets */; };
+		FF46BF1F1E3357F5005FC173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF46BF1D1E3357F5005FC173 /* LaunchScreen.storyboard */; };
+		FF46BF2C1E3359A5005FC173 /* out in Resources */ = {isa = PBXBuildFile; fileRef = FF46BF2B1E3359A5005FC173 /* out */; };
+		FF46BF2E1E3367B6005FC173 /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF2D1E3367B6005FC173 /* boost.framework */; };
+		FF46BF441E3382B1005FC173 /* libc_common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF301E3382B1005FC173 /* libc_common.a */; };
+		FF46BF451E3382B1005FC173 /* libcoap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF311E3382B1005FC173 /* libcoap.a */; };
+		FF46BF461E3382B1005FC173 /* libconnectivity_abstraction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF321E3382B1005FC173 /* libconnectivity_abstraction.a */; };
+		FF46BF471E3382B1005FC173 /* libESMediatorRich.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF331E3382B1005FC173 /* libESMediatorRich.a */; };
+		FF46BF481E3382B1005FC173 /* liblogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF341E3382B1005FC173 /* liblogger.a */; };
+		FF46BF491E3382B1005FC173 /* libnotification_consumer_wrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF351E3382B1005FC173 /* libnotification_consumer_wrapper.a */; };
+		FF46BF4A1E3382B1005FC173 /* libnotification_consumer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF361E3382B1005FC173 /* libnotification_consumer.a */; };
+		FF46BF4B1E3382B1005FC173 /* libnotification_provider_wrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF371E3382B1005FC173 /* libnotification_provider_wrapper.a */; };
+		FF46BF4C1E3382B1005FC173 /* libnotification_provider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF381E3382B1005FC173 /* libnotification_provider.a */; };
+		FF46BF4D1E3382B1005FC173 /* liboc_logger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF391E3382B1005FC173 /* liboc_logger.a */; };
+		FF46BF4E1E3382B1005FC173 /* liboc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF3A1E3382B1005FC173 /* liboc.a */; };
+		FF46BF4F1E3382B1005FC173 /* libocsrm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF3B1E3382B1005FC173 /* libocsrm.a */; };
+		FF46BF501E3382B1005FC173 /* liboctbstack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF3C1E3382B1005FC173 /* liboctbstack.a */; };
+		FF46BF511E3382B1005FC173 /* librcs_client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF3D1E3382B1005FC173 /* librcs_client.a */; };
+		FF46BF521E3382B1005FC173 /* librcs_common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF3E1E3382B1005FC173 /* librcs_common.a */; };
+		FF46BF531E3382B1005FC173 /* librcs_container.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF3F1E3382B1005FC173 /* librcs_container.a */; };
+		FF46BF541E3382B1005FC173 /* librcs_server.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF401E3382B1005FC173 /* librcs_server.a */; };
+		FF46BF551E3382B1005FC173 /* libresource_directory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF411E3382B1005FC173 /* libresource_directory.a */; };
+		FF46BF561E3382B1005FC173 /* libroutingmanager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF421E3382B1005FC173 /* libroutingmanager.a */; };
+		FF46BF571E3382B1005FC173 /* libscene_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46BF431E3382B1005FC173 /* libscene_manager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF46BF0C1E3357F5005FC173 /* IoTivitySimpleServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IoTivitySimpleServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF46BF101E3357F5005FC173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF46BF121E3357F5005FC173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF46BF131E3357F5005FC173 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF46BF151E3357F5005FC173 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF46BF161E3357F5005FC173 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		FF46BF191E3357F5005FC173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF46BF1B1E3357F5005FC173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF46BF1E1E3357F5005FC173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF46BF201E3357F5005FC173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF46BF291E3358D6005FC173 /* IoTvity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTvity.h; sourceTree = "<group>"; };
+		FF46BF2B1E3359A5005FC173 /* out */ = {isa = PBXFileReference; lastKnownFileType = folder; path = out; sourceTree = "<group>"; };
+		FF46BF2D1E3367B6005FC173 /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = boost.framework; sourceTree = "<group>"; };
+		FF46BF301E3382B1005FC173 /* libc_common.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libc_common.a; path = IoTivitySimpleServer/out/ios/arm64/debug/libc_common.a; sourceTree = "<group>"; };
+		FF46BF311E3382B1005FC173 /* libcoap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcoap.a; path = IoTivitySimpleServer/out/ios/arm64/debug/libcoap.a; sourceTree = "<group>"; };
+		FF46BF321E3382B1005FC173 /* libconnectivity_abstraction.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconnectivity_abstraction.a; path = IoTivitySimpleServer/out/ios/arm64/debug/libconnectivity_abstraction.a; sourceTree = "<group>"; };
+		FF46BF331E3382B1005FC173 /* libESMediatorRich.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libESMediatorRich.a; path = IoTivitySimpleServer/out/ios/arm64/debug/libESMediatorRich.a; sourceTree = "<group>"; };
+		FF46BF341E3382B1005FC173 /* liblogger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblogger.a; path = IoTivitySimpleServer/out/ios/arm64/debug/liblogger.a; sourceTree = "<group>"; };
+		FF46BF351E3382B1005FC173 /* libnotification_consumer_wrapper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnotification_consumer_wrapper.a; path = IoTivitySimpleServer/out/ios/arm64/debug/libnotification_consumer_wrapper.a; sourceTree = "<group>"; };
+		FF46BF361E3382B1005FC173 /* libnotification_consumer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnotification_consumer.a; path = IoTivitySimpleServer/out/ios/arm64/debug/libnotification_consumer.a; sourceTree = "<group>"; };
+		FF46BF371E3382B1005FC173 /* libnotification_provider_wrapper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnotification_provider_wrapper.a; path = IoTivitySimpleServer/out/ios/arm64/debug/libnotification_provider_wrapper.a; sourceTree = "<group>"; };
+		FF46BF381E3382B1005FC173 /* libnotification_provider.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnotification_provider.a; path = IoTivitySimpleServer/out/ios/arm64/debug/libnotification_provider.a; sourceTree = "<group>"; };
+		FF46BF391E3382B1005FC173 /* liboc_logger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboc_logger.a; path = IoTivitySimpleServer/out/ios/arm64/debug/liboc_logger.a; sourceTree = "<group>"; };
+		FF46BF3A1E3382B1005FC173 /* liboc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboc.a; path = IoTivitySimpleServer/out/ios/arm64/debug/liboc.a; sourceTree = "<group>"; };
+		FF46BF3B1E3382B1005FC173 /* libocsrm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libocsrm.a; path = IoTivitySimpleServer/out/ios/arm64/debug/libocsrm.a; sourceTree = "<group>"; };
+		FF46BF3C1E3382B1005FC173 /* liboctbstack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboctbstack.a; path = IoTivitySimpleServer/out/ios/arm64/debug/liboctbstack.a; sourceTree = "<group>"; };
+		FF46BF3D1E3382B1005FC173 /* librcs_client.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librcs_client.a; path = IoTivitySimpleServer/out/ios/arm64/debug/librcs_client.a; sourceTree = "<group>"; };
+		FF46BF3E1E3382B1005FC173 /* librcs_common.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librcs_common.a; path = IoTivitySimpleServer/out/ios/arm64/debug/librcs_common.a; sourceTree = "<group>"; };
+		FF46BF3F1E3382B1005FC173 /* librcs_container.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librcs_container.a; path = IoTivitySimpleServer/out/ios/arm64/debug/librcs_container.a; sourceTree = "<group>"; };
+		FF46BF401E3382B1005FC173 /* librcs_server.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librcs_server.a; path = IoTivitySimpleServer/out/ios/arm64/debug/librcs_server.a; sourceTree = "<group>"; };
+		FF46BF411E3382B1005FC173 /* libresource_directory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libresource_directory.a; path = IoTivitySimpleServer/out/ios/arm64/debug/libresource_directory.a; sourceTree = "<group>"; };
+		FF46BF421E3382B1005FC173 /* libroutingmanager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libroutingmanager.a; path = IoTivitySimpleServer/out/ios/arm64/debug/libroutingmanager.a; sourceTree = "<group>"; };
+		FF46BF431E3382B1005FC173 /* libscene_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libscene_manager.a; path = IoTivitySimpleServer/out/ios/arm64/debug/libscene_manager.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF46BF091E3357F5005FC173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF46BF441E3382B1005FC173 /* libc_common.a in Frameworks */,
+				FF46BF451E3382B1005FC173 /* libcoap.a in Frameworks */,
+				FF46BF461E3382B1005FC173 /* libconnectivity_abstraction.a in Frameworks */,
+				FF46BF471E3382B1005FC173 /* libESMediatorRich.a in Frameworks */,
+				FF46BF481E3382B1005FC173 /* liblogger.a in Frameworks */,
+				FF46BF491E3382B1005FC173 /* libnotification_consumer_wrapper.a in Frameworks */,
+				FF46BF4A1E3382B1005FC173 /* libnotification_consumer.a in Frameworks */,
+				FF46BF4B1E3382B1005FC173 /* libnotification_provider_wrapper.a in Frameworks */,
+				FF46BF4C1E3382B1005FC173 /* libnotification_provider.a in Frameworks */,
+				FF46BF4D1E3382B1005FC173 /* liboc_logger.a in Frameworks */,
+				FF46BF4E1E3382B1005FC173 /* liboc.a in Frameworks */,
+				FF46BF4F1E3382B1005FC173 /* libocsrm.a in Frameworks */,
+				FF46BF501E3382B1005FC173 /* liboctbstack.a in Frameworks */,
+				FF46BF511E3382B1005FC173 /* librcs_client.a in Frameworks */,
+				FF46BF521E3382B1005FC173 /* librcs_common.a in Frameworks */,
+				FF46BF531E3382B1005FC173 /* librcs_container.a in Frameworks */,
+				FF46BF541E3382B1005FC173 /* librcs_server.a in Frameworks */,
+				FF46BF551E3382B1005FC173 /* libresource_directory.a in Frameworks */,
+				FF46BF561E3382B1005FC173 /* libroutingmanager.a in Frameworks */,
+				FF46BF571E3382B1005FC173 /* libscene_manager.a in Frameworks */,
+				FF46BF2E1E3367B6005FC173 /* boost.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF46BF031E3357F5005FC173 = {
+			isa = PBXGroup;
+			children = (
+				FF46BF0E1E3357F5005FC173 /* IoTivitySimpleServer */,
+				FF46BF0D1E3357F5005FC173 /* Products */,
+				FF46BF2F1E3382B0005FC173 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF46BF0D1E3357F5005FC173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF46BF0C1E3357F5005FC173 /* IoTivitySimpleServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF46BF0E1E3357F5005FC173 /* IoTivitySimpleServer */ = {
+			isa = PBXGroup;
+			children = (
+				FF46BF2A1E335904005FC173 /* Libs */,
+				FF46BF121E3357F5005FC173 /* AppDelegate.h */,
+				FF46BF131E3357F5005FC173 /* AppDelegate.m */,
+				FF46BF151E3357F5005FC173 /* ViewController.h */,
+				FF46BF161E3357F5005FC173 /* ViewController.mm */,
+				FF46BF181E3357F5005FC173 /* Main.storyboard */,
+				FF46BF1B1E3357F5005FC173 /* Assets.xcassets */,
+				FF46BF1D1E3357F5005FC173 /* LaunchScreen.storyboard */,
+				FF46BF201E3357F5005FC173 /* Info.plist */,
+				FF46BF0F1E3357F5005FC173 /* Supporting Files */,
+				FF46BF291E3358D6005FC173 /* IoTvity.h */,
+			);
+			path = IoTivitySimpleServer;
+			sourceTree = "<group>";
+		};
+		FF46BF0F1E3357F5005FC173 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF46BF101E3357F5005FC173 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF46BF2A1E335904005FC173 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				FF46BF2D1E3367B6005FC173 /* boost.framework */,
+				FF46BF2B1E3359A5005FC173 /* out */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		FF46BF2F1E3382B0005FC173 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF46BF301E3382B1005FC173 /* libc_common.a */,
+				FF46BF311E3382B1005FC173 /* libcoap.a */,
+				FF46BF321E3382B1005FC173 /* libconnectivity_abstraction.a */,
+				FF46BF331E3382B1005FC173 /* libESMediatorRich.a */,
+				FF46BF341E3382B1005FC173 /* liblogger.a */,
+				FF46BF351E3382B1005FC173 /* libnotification_consumer_wrapper.a */,
+				FF46BF361E3382B1005FC173 /* libnotification_consumer.a */,
+				FF46BF371E3382B1005FC173 /* libnotification_provider_wrapper.a */,
+				FF46BF381E3382B1005FC173 /* libnotification_provider.a */,
+				FF46BF391E3382B1005FC173 /* liboc_logger.a */,
+				FF46BF3A1E3382B1005FC173 /* liboc.a */,
+				FF46BF3B1E3382B1005FC173 /* libocsrm.a */,
+				FF46BF3C1E3382B1005FC173 /* liboctbstack.a */,
+				FF46BF3D1E3382B1005FC173 /* librcs_client.a */,
+				FF46BF3E1E3382B1005FC173 /* librcs_common.a */,
+				FF46BF3F1E3382B1005FC173 /* librcs_container.a */,
+				FF46BF401E3382B1005FC173 /* librcs_server.a */,
+				FF46BF411E3382B1005FC173 /* libresource_directory.a */,
+				FF46BF421E3382B1005FC173 /* libroutingmanager.a */,
+				FF46BF431E3382B1005FC173 /* libscene_manager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF46BF0B1E3357F5005FC173 /* IoTivitySimpleServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF46BF231E3357F5005FC173 /* Build configuration list for PBXNativeTarget "IoTivitySimpleServer" */;
+			buildPhases = (
+				FF46BF081E3357F5005FC173 /* Sources */,
+				FF46BF091E3357F5005FC173 /* Frameworks */,
+				FF46BF0A1E3357F5005FC173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IoTivitySimpleServer;
+			productName = IoTivitySimpleServer;
+			productReference = FF46BF0C1E3357F5005FC173 /* IoTivitySimpleServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF46BF041E3357F5005FC173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					FF46BF0B1E3357F5005FC173 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N4ETB7X5E7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF46BF071E3357F5005FC173 /* Build configuration list for PBXProject "IoTivitySimpleServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF46BF031E3357F5005FC173;
+			productRefGroup = FF46BF0D1E3357F5005FC173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF46BF0B1E3357F5005FC173 /* IoTivitySimpleServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF46BF0A1E3357F5005FC173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF46BF1F1E3357F5005FC173 /* LaunchScreen.storyboard in Resources */,
+				FF46BF1C1E3357F5005FC173 /* Assets.xcassets in Resources */,
+				FF46BF1A1E3357F5005FC173 /* Main.storyboard in Resources */,
+				FF46BF2C1E3359A5005FC173 /* out in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF46BF081E3357F5005FC173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF46BF171E3357F5005FC173 /* ViewController.mm in Sources */,
+				FF46BF141E3357F5005FC173 /* AppDelegate.m in Sources */,
+				FF46BF111E3357F5005FC173 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF46BF181E3357F5005FC173 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF46BF191E3357F5005FC173 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF46BF1D1E3357F5005FC173 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF46BF1E1E3357F5005FC173 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF46BF211E3357F5005FC173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		FF46BF221E3357F5005FC173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		FF46BF241E3357F5005FC173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N4ETB7X5E7;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IoTivitySimpleServer",
+				);
+				INFOPLIST_FILE = IoTivitySimpleServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IoTivitySimpleServer/out/ios/arm64/debug",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkan.IoTivitySimpleServer1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		FF46BF251E3357F5005FC173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N4ETB7X5E7;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IoTivitySimpleServer",
+				);
+				INFOPLIST_FILE = IoTivitySimpleServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IoTivitySimpleServer/out/ios/arm64/debug",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkan.IoTivitySimpleServer1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF46BF071E3357F5005FC173 /* Build configuration list for PBXProject "IoTivitySimpleServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF46BF211E3357F5005FC173 /* Debug */,
+				FF46BF221E3357F5005FC173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF46BF231E3357F5005FC173 /* Build configuration list for PBXNativeTarget "IoTivitySimpleServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF46BF241E3357F5005FC173 /* Debug */,
+				FF46BF251E3357F5005FC173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF46BF041E3357F5005FC173 /* Project object */;
+}
